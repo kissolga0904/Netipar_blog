@@ -21,4 +21,9 @@ class PostController extends Controller
     }
 
     //7 restful actions: index, show, create, store, edit, update, destroy
+
+    public function create(){
+
+        return view('posts.create');
+    }
 }
