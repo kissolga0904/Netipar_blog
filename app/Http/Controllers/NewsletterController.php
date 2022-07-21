@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Services\Newsletter;
-use Illuminate\Http\Request;
 
 class NewsletterController extends Controller
 {
