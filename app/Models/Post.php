@@ -10,7 +10,6 @@ class Post extends Model
     use HasFactory;
 
     //everything is fillable, except what you provide to this array
-    protected $guarded = [];
 
     //default for every post query you perform
     protected $with = ['category', 'author'];
